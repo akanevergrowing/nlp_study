@@ -6,7 +6,7 @@
 
 ## 一、项目简介
 
-本项目实现了一套完整的 RAG 问答系统，支持 **PDF** 和 **PPT** 两种文档格式，使用 **ModelScope 开源 Embedding 模型**（如 Qwen3-Embedding-4B）进行文本向量化，通过 **FAISS + BM25 混合检索** 实现高精度召回，最终由 **LLM** 生成带引用标注的回答。
+本项目实现了一套完整的 RAG 问答系统，支持 **PDF** 和 **PPT** 两种文档格式，使用 **ModelScope 开源 Embedding 模型**（如 Qwen3-Embedding-0.6B）进行文本向量化，通过 **FAISS + BM25 混合检索** 实现高精度召回，最终由 **LLM** 生成带引用标注的回答。
 
 ### 核心特性
 
